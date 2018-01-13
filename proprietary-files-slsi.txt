@@ -57,8 +57,6 @@ lib/omx/libOMX.Exynos.VP8.Encoder.so
 lib64/omx/libOMX.Exynos.VP8.Encoder.so
 lib/omx/libOMX.Exynos.HEVC.Encoder.so
 lib64/omx/libOMX.Exynos.HEVC.Encoder.so
-lib/omx/libOMX.Exynos.MPEG2.Decoder.so
-lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 lib/omx/libOMX.Exynos.VP9.Encoder.so
 lib64/omx/libOMX.Exynos.VP9.Encoder.so
 

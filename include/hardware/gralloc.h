@@ -33,6 +33,12 @@
 
 __BEGIN_DECLS
 
+#ifdef __cplusplus
+#define TO_HW_DEVICE_T_OPEN(x) reinterpret_cast<struct hw_device_t**>(x)
+#else
+#define TO_HW_DEVICE_T_OPEN(x) (struct hw_device_t**)(x)
+#endif
+
 /**
  * Module versioning information for the Gralloc hardware module, based on
  * gralloc_module_t.common.module_api_version.
